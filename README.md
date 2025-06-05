@@ -2,6 +2,8 @@
 
 An AI-powered web app that uses Gemini 2.5 Flash through the Google Gemini API to summarize meeting transcripts and identify action items.
 
+This is a new version of my Insight project, which had similar functionality.
+
 ---
 
 ## Tech Stack
