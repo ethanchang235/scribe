@@ -1,0 +1,37 @@
+# --- Security ---
+# Ignore environment files that contain secret keys like Gemini API key.
+.env
+*.env
+.env.*
+!.env.example
+
+# --- Python ---
+# Ignore the Python virtual environment folder.
+venv/
+*.pyc
+__pycache__/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+*.spec
+
+# --- Node.js / Frontend (for later phases) ---
+# Ignore the massive node_modules folder.
+node_modules/
+.pnp
+.pnp.js
+coverage/
+build/
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.idea/
+.vscode/
+
+# --- Operating System Files ---
+# Mac
+.DS_Store
